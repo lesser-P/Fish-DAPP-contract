@@ -1,0 +1,40 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/uniswap/PancakeRouter.sol": "TransferHelper"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/uniswap/PancakeRouter.sol": {
+			"keccak256": "0xc266d94bddb8d5db79517009172cca2439dcd7d36e40759ff4c2301c73b9e851",
+			"urls": [
+				"bzz-raw://5904ed8021e4a2fe5998ce0a5024b598a686c0cba68b0b746cd0b7bb8ed35d27",
+				"dweb:/ipfs/QmbK6NZHxexagbnSh4u27GEo1nxiPbaWL5qCTYhVE8tX9u"
+			]
+		}
+	},
+	"version": 1
+}

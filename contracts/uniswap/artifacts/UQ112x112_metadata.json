@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/uniswap/PancakeFactory.sol": "UQ112x112"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/uniswap/PancakeFactory.sol": {
+			"keccak256": "0x3b5859a9c73f7af402a74660cfb8041c6c798bad5c2e094930c490c5290666a0",
+			"urls": [
+				"bzz-raw://3fcb8d390c1025b6de9bd1f4eb8c7448b170c5e8959c76e7006efde41a4e9983",
+				"dweb:/ipfs/QmRjfPnmk3bP21CYSCepipE7Y83VcZYLsG8e9y7ddMAYeB"
+			]
+		}
+	},
+	"version": 1
+}

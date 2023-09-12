@@ -1,0 +1,16 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ReentrancyGuard",
+  "sourceName": "contracts/farm.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b506001600055603f8060226000396000f3fe6080604052600080fdfea2646970667358221220c1b5ea63ea3c72566f28957cac7525127e360dffdda32579817bc7fd4b0fbabd64736f6c63430008000033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220c1b5ea63ea3c72566f28957cac7525127e360dffdda32579817bc7fd4b0fbabd64736f6c63430008000033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
