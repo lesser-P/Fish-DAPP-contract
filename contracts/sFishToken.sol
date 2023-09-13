@@ -1,5 +1,5 @@
 //SPDX-License-Identifier: MIT
-pragma solidity 0.6.12;
+pragma solidity ^0.6.12;
 pragma experimental ABIEncoderV2;
 
 import "@boringcrypto/boring-solidity/contracts/libraries/BoringMath.sol";
@@ -75,20 +75,13 @@ contract sFISH is IERC20, Domain {
         return true;
     }
 
-    function balanceOf(address user)
-        public
-        view
-        override
-        returns (uint256 balance)
-    {
+    function balanceOf(
+        address user
+    ) public view override returns (uint256 balance) {
         return users[user].balance;
     }
 
-    function _transfer(
-        address from,
-        address to,
-        uint256 shares
-    ) internal {
+    function _transfer(address from, address to, uint256 shares) internal {
         User memory fromUser = users[from];
         require(block.timestamp >= fromUser.lockedUntil, "Locked");
         if (shares != 0) {
@@ -143,11 +136,10 @@ contract sFISH is IERC20, Domain {
     /// @param spender Address of the party that can draw from msg.sender's account.
     /// @param amount The maximum collective amount that `spender` can draw.
     /// @return (bool) Returns True if approved.
-    function approve(address spender, uint256 amount)
-        public
-        override
-        returns (bool)
-    {
+    function approve(
+        address spender,
+        uint256 amount
+    ) public override returns (bool) {
         allowance[msg.sender][spender] = amount;
         emit Approval(msg.sender, spender, amount);
         return true;
@@ -223,11 +215,7 @@ contract sFISH is IERC20, Domain {
         return true;
     }
 
-    function _burn(
-        address from,
-        address to,
-        uint256 shares
-    ) internal {
+    function _burn(address from, address to, uint256 shares) internal {
         require(to != address(0), "Zero address");
         User memory user = users[from];
         require(block.timestamp >= user.lockedUntil, "Locked");
