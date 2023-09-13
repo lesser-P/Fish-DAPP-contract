@@ -1,3 +1,16 @@
-# mirrorsea
+# FISH Dapp 合约部分
 
-npx hardhat run --network polygon scripts/deploy.js
+## 合约逻辑
+
+![显示失败](img/iShot_2023-09-13_10.07.11.png)
+
+## 合约地址
+
+**网络** : FUJI \
+**部署账号** : 0xF5AcD7df01A57360E8E53AC2d28B8452EC0eFcc6 \
+
+**usdcBuyNftLogic** : 0xB962A9e1ABb8dBe7d6bCf9C0DB372f4E8e7344b1 \
+**FishNft** : 0xd3762f502818dd0F368d67A1690981282959ec2d \
+**FishToken** : 0x8d97553F31A27395B37FBF8D6d1dd8e7e75eB1ab \
+**sFishToken** : 0xE5Dd4E2a36841cC4E076A5c4771F436da72f50D0 \
+**USDC** : 0x430B0EC5FdF743BEF2844E2450a7f3275054BC15 \
